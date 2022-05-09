@@ -46,25 +46,25 @@ div.display h4 {
     text-align: left;
 }
 
-div.display ul {
+div.display ul, div.display li{
     display: inline-block;
-    /* width: 300px;
-    padding-top: 11px;
-    padding-bottom: 20px;
-    margin: 5px; */
-    vertical-align:top;
-    align-content: left;
-    width: 200px;
-    margin: 30px 30px 30px 30px;
-    padding: 20px;
-    text-align: justify;
     text-decoration: none;
-    border-style: solid;
-    border-color: grey;
-    background-color: rgb(243, 238, 238)
+    margin-left: 45px;
 }
 
 div.display li{
+    display: inline-block;
+    text-align: justify;
     text-decoration: none;
+    /* justify-content: center;
+    align-items: center; */
+    width: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgb(243, 238, 238);
 }
+
+
+
 
